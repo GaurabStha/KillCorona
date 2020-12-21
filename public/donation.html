@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/css/mdb.min.css" rel="stylesheet">
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/js/mdb.min.js"></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="favicon.ico" />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style-min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>KillCorona</title>
+</head>
+
+<body>
+
+    <!--Navbar -->
+    <nav class="mb-1 navbar navbar-expand-lg navbar-dark danger-color">
+        <a class="navbar-brand" href="#">KillCorona</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333" aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tracker.html">Tracker</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Plasma Bank</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="information.html">Information</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Log in</a>
+                </li>
+        </div>
+    </nav>
+    <!--/.Navbar -->
+
+    <!-- Jumbotron -->
+    <div class="card card-image img-fluid" style="background-image: url('images/blooddonate.jpg'); background-size: cover;">
+        <div class="text-white text-center rgba-stylish-strong py-5 px-4">
+            <div class="py-5">
+
+                <!-- Content -->
+                <h4 class="card-title h4 my-4 py-2">DONATE BLOOD, SAVE LIFE!</h4>
+                <h1 class="mb-4 pb-2 px-md-5 mx-md-5">DONATE YOUR BLOOD AND INSPIRE<br>OTHERS TO DONATE.</h1>
+                <a class="btn btn-danger">Donate Blood & Plasma <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-3">
+        <h2 style="color: black">Blood and Plasma Donor List</h2>
+        <p>Type something in the input field to search the table for address or blood group.</p>
+        <input class="form-control" id="myInput" type="text" placeholder="Search..">
+        <br>
+        <table class="table table-bordered" style="color: black; font-size: bold;">
+            <thead>
+                <tr>
+                    <th>Full Name</th>
+                    <th>Address</th>
+                    <th>Email</th>
+                    <th>Phone No.</th>
+                    <th>Blood Group</th>
+                </tr>
+            </thead>
+            <tbody id="myTable">
+                <tr>
+                    <td>Aman Mahaseth</td>
+                    <td>Pokhara</td>
+                    <td>john@example.com</td>
+                    <td>123456</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td>Gambir Shrestha</td>
+                    <td>Kathmandu</td>
+                    <td>mary@mail.com</td>
+                    <td>654321</td>
+                    <td>O+</td>
+                </tr>
+                <tr>
+                    <td>Dipesh Adhikari</td>
+                    <td>Kathmandu</td>
+                    <td>july@greatstuff.com</td>
+                    <td>13546516</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td>Suraj Ale Magar</td>
+                    <td>Kathmandu</td>
+                    <td>a_r@test.com</td>
+                    <td>35465465</td>
+                    <td>AB+</td>
+                </tr>
+                <tr>
+                    <td>Gaurab Shrestha</td>
+                    <td>Kathmandu</td>
+                    <td>gaurabian111@gmail.com</td>
+                    <td>9860311051</td>
+                    <td>B+</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+
+    <div class="container-fluid" id="container2">
+        <!-- Jumbotron -->
+        <div class="jumbotron text-center grey darken-3 white-text mx-2 mb-5">
+            <!-- Title -->
+            <h2 class="card-title h2">JOIN WITH US AND SAVE LIFE</h2>
+        </div>
+        <!-- Jumbotron -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small danger-color pt-4">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+            <a href="index.html"> KillCorona</a> All Rights Reserved
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    <script>
+        $(document).ready(function() {
+            $("#myInput").on("keyup", function() {
+                var value = $(this).val().toLowerCase();
+                $("#myTable tr").filter(function() {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

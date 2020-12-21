@@ -1,0 +1,17 @@
+{
+    "name": "kill-corona",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "http-server -c-1 -p 8000"
+    },
+    "keywords": [
+        "pwa"
+    ],
+    "author": "Gaurab Shrestha",
+    "license": "ISC",
+    "dependencies": {
+        "http-server": "^0.12.3"
+    }
+}
